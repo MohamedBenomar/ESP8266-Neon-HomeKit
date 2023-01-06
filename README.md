@@ -1,6 +1,6 @@
-# ESP8266-LED-HomeKit
+# ESP8266-Neon-HomeKit
 
-ESP8266-LED-HomeKit
+ESP8266-Neon-HomeKit
 
 
 ![QR code example](qrcode-led.png)
