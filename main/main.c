@@ -67,7 +67,7 @@ homekit_accessory_t *accessories[] = {
             HOMEKIT_CHARACTERISTIC(MANUFACTURER, "Mohamed Benomar"),
             HOMEKIT_CHARACTERISTIC(SERIAL_NUMBER, "9873216549"),
             HOMEKIT_CHARACTERISTIC(MODEL, "Neon"),
-            HOMEKIT_CHARACTERISTIC(FIRMWARE_REVISION, "1.0.0"),
+            HOMEKIT_CHARACTERISTIC(FIRMWARE_REVISION, "1.0.1"),
             HOMEKIT_CHARACTERISTIC(IDENTIFY, led_identify),
             NULL
         }),
@@ -88,7 +88,7 @@ homekit_accessory_t *accessories[] = {
 homekit_server_config_t config = {
     .accessories = accessories,
     .password = "987-11-999",
-    .setupId="9SW7"
+    .setupId="NEON"
 };
 
 void on_wifi_ready() {
